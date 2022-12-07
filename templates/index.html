@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta author="Teubou Tonzong Christian"/>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP ML</title>
+</head>
+<body>
+
+    <h2>Teubou Christian</h2>
+    <h3>Formulaire de prediction</h3>
+    <br>
+
+    <span>Entrer votre phrase(en anglais) et obtener le degré de sentiment en cliquant sur soumettre</span>
+    <br>
+
+    <hr color="blue">
+
+    <div>
+        <form action="/predict" method="POST">
+            <label for="phrase">Entrer une phrase en anglais :</label>
+            <br>
+            <textarea name="phrase"  id="phrase" rows="5" cols="50"></textarea>
+            <br>
+            <br>
+            <input type="submit" value="Soumettre">
+        </form>
+    </div>
+
+</body>
+</html>
+
+
